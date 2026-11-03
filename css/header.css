@@ -1,0 +1,9 @@
+.site-header{position:absolute;z-index:10;top:0;left:0;width:100%;padding:24px 0;color:#fff;border-bottom:1px solid rgba(255,255,255,.16)}
+.header-inner{display:flex;align-items:center;justify-content:space-between}
+.logo{display:inline-flex;align-items:center;gap:10px;font-family:"Manrope",sans-serif;font-size:19px;font-weight:800;letter-spacing:-.8px}
+.logo-mark{display:grid;place-items:center;width:32px;height:32px;border:1px solid rgba(215,237,131,.7);border-radius:10px;color:var(--lime);font-size:17px}
+.logo-light{color:var(--lime)}
+.header-link{display:inline-flex;align-items:center;gap:12px;font-size:12px;font-weight:600;color:#e4e9e4;transition:color .2s}
+.header-link span{color:var(--lime);font-size:17px}
+.header-link:hover{color:var(--lime)}
+@media(max-width:600px){.site-header{padding:17px 0}.header-link{font-size:0}.header-link span{font-size:22px}.logo{font-size:18px}}
