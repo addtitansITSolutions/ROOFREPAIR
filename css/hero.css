@@ -1,6 +1,6 @@
 .hero{position:relative;min-height:720px;display:flex;align-items:center;overflow:hidden;background:var(--forest);color:#fff}
 .hero-photo,.hero-shade{position:absolute;inset:0}
-.hero-photo{background:url("../assets/banner.png") center 48%/cover no-repeat;transform:scale(1.015)}
+.hero-photo{background:url("../assets/banner.jpg") center 48%/cover no-repeat;transform:scale(1.015)}
 .hero-shade{background:linear-gradient(90deg,rgba(15,27,23,.94) 0%,rgba(15,27,23,.82) 43%,rgba(15,27,23,.26) 100%),linear-gradient(0deg,rgba(15,27,23,.35),transparent 50%)}
 .hero-inner{position:relative;z-index:1;display:grid;grid-template-columns:minmax(0,1fr) 260px;align-items:end;gap:60px;padding-top:130px;padding-bottom:112px}
 .hero-copy{max-width:690px}
